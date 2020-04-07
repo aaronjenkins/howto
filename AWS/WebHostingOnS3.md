@@ -1,4 +1,11 @@
 # Webhosting on AWS S3
+In this guide I will show you how to host a static website on S3 and how to set up the automated build process to deploy it there. 
+
+This can be useful for a few things. 
+- Very cheap hosting for simple projects [S3 Pricing Guide](https://aws.amazon.com/s3/pricing/)
+- Fast deployment of sites to test on mobile devices
+- Site prototyping and demonstration
+
 
 ## Create VUE or React app
 
@@ -20,7 +27,10 @@
 
 ## Setting up your S3 Bucket
 
-1. create the bucket \
+1. create the bucket
+- be sure to uncheck 'Block all Public Access' checkbox, since you will want to be able to publicly access your website
+- and click the checkbox to acknowledge that you understand
+- WARNING: this will allow the files from your bucket to be accessed publicly, so DONT any information or files in this bucket that you don't want any else to access\
    ![](WebHostingOnS3ScreenShots/s3bucketcreation.png)
 2. set up as website
 
@@ -29,7 +39,7 @@
    ![](WebHostingOnS3ScreenShots/enablestaticwebhosting2.png)
 - Rememebr the generated URL, it will be how to access the website later
 
-3. Edit Permissions
+1. Edit Permissions
 
 - Go to Permissions > Bucket Policy and paste in the content of this
 - [s3 public bucket policy · GitHub](https://gist.github.com/aaronjenkins/a4d0791944ad0e83c7658fc9c1a88514)
