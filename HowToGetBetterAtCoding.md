@@ -8,7 +8,7 @@
     * I originally bought this book thinking the title was the *Mythical Man Moth*, but alas it's not about cryptids. It's about project management. First published in 1975, a lot of it still holds up today. 
 
 
-## Online Coding Pracice
+## Online Coding Practice
 The best thing to do with online tools is setup your own application locally to write the code and tests. This teaches you more about using the editor, making the application run, and troubleshooting code. 
 
 Here are some good sites with katas

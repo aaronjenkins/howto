@@ -30,7 +30,7 @@ In this guide, I will show you how to create a Lambda function on AWS and set up
 ![](LambdaFunctionsAsRestAPIScreenShots/addapigateway2.png)
 
 ## Call your new API via Postman 
-1. Expand the Details seciton title 'API-Gateway'
+1. Expand the Details section title 'API-Gateway'
 2. Copy the url into a postman request
 3. Add a header to the request called 'x-api-key' and paste the api key value\
 ![](LambdaFunctionsAsRestAPIScreenShots/usingpostman1.png)

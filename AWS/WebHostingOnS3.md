@@ -27,7 +27,7 @@ This can be useful for a few things.
 # Setting up your S3 Bucket
 
 ## 1. Create the bucket
-  - Be sure to uncheck 'Block all Public Access' checkbox, since you will want to be able to publicly access your website
+  - Be sure to un-check 'Block all Public Access' checkbox, since you will want to be able to publicly access your website
   - Click the checkbox in the warning box to acknowledge you understand
   - WARNING: this will allow the files from your bucket to be accessed publicly, so DO NOT put any information or files in this bucket that you don't want to be publicly accessible
 
